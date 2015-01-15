@@ -1,0 +1,21 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.12.2",
+    "material-ui": "^0.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-webpack": "^1.1.2",
+    "jsx-loader": "^0.12.2",
+    "rimraf": "^2.2.8"
+  }
+}
