@@ -1,4 +1,7 @@
-var React = require('react');
+var React = require('react'),
+  mui = require('material-ui'),
+  RaisedButton = mui.RaisedButton;
+
 var Todo = React.createClass({
   propTypes: {
     todo: React.PropTypes.shape({
@@ -14,7 +17,7 @@ var Todo = React.createClass({
     return (
       <div>
         <span>{this.props.todo.text}</span>
-        <button onClick={this._onDelete}>delete</button>
+        <RaisedButton onClick={this._onDelete} label="delete" />
       </div>
     );
   }

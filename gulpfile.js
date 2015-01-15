@@ -8,7 +8,7 @@ gulp.task('cleanBuild', function (cb) {
 });
 
 gulp.task('copyIndex', ['cleanBuild'], function () {
-  return gulp.src('./source/index.html')
+  return gulp.src('./src/index.html')
   .pipe(gulp.dest('./build/'));
 });
 
